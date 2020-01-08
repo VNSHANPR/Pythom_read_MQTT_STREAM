@@ -4,6 +4,7 @@ import json
 import sys
 from hdbcli import dbapi
 import os
+import pandas as pd
 
 def on_connect(client, userdata, flags, rc):
 
